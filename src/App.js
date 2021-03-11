@@ -1,6 +1,6 @@
 import react from 'react';
-import './App.css';
-import ReactstrapButtonGroup from './R038_ReactstrapButtonGroup.js';
+// import './App.css';
+import InputGroup  from './R045_ReactstrapinputGroup.js';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ReactstrapButtonGroup />
+      <InputGroup />
     </div>
   );
 }
