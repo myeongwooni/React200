@@ -15,7 +15,7 @@ class R015_Map extends Component {
         let Map_objArr = ObjArray.map((obj,index) => {
             console.log((index+3)+". obj : "+JSON.stringify(obj))
             var Obj = {};
-            Obj[obj.key] = obj.value;
+            Obj[obj.key] = obj.value; 
             return Obj;
         });
 
