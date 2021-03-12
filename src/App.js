@@ -1,13 +1,13 @@
 import react from 'react';
 // import './App.css';
-import Tab  from './R055_ReactstrabTab.js';
-import 'bootstrap/dist/css/bootstrap.css';
+import Sweetalert2Position  from './R057_Sweetalert2Position.js';
+
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <Tab />
+      <Sweetalert2Position />
     </div>
   );
 }
