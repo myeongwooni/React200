@@ -1,16 +1,17 @@
-import React from 'react';
-import react from 'react';
+import React, {Component} from 'react';
 // import './App.css';
-import ReactonMouseOut  from './R070_onMouseOut.js';
+import StrAddbutton from './StrAddbutton';
 
-
-function App() {
-  return (
-    <div>
-      <h1>Start React 200!</h1>
-      <ReactonMouseOut />
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <div>
+        <h1>Start React 200!</h1>
+        <span>{this.props.store.getState().data.str}</span><br/>
+        <StrAddbutton store={this.props.str}/>
+      </div>
+    );
+  }
 }
 
 export default App;
